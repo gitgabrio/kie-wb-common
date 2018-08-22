@@ -49,6 +49,8 @@
 \*\/$
 ]]>
     </checkstyle.header.template>
+    <checkstyle.failOnViolation>true</checkstyle.failOnViolation>
+    <checkstyle.logViolationsToConsole>true</checkstyle.logViolationsToConsole>
   </properties>
 
   <dependencyManagement>

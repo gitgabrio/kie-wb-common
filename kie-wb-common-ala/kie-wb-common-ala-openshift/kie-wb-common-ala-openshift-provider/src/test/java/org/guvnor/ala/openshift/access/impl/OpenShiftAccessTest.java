@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *       http://www.apache.org/licenses/LICENSE-2.0
+ *     http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -14,9 +14,6 @@
  * limitations under the License.
  */
 package org.guvnor.ala.openshift.access.impl;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
 
 import java.net.URISyntaxException;
 import java.util.Map;
@@ -27,6 +24,9 @@ import org.guvnor.ala.openshift.access.OpenShiftTemplate;
 import org.guvnor.ala.openshift.access.OpenShiftTemplate.Parameter;
 import org.guvnor.ala.openshift.config.impl.OpenShiftProviderConfigImpl;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 public class OpenShiftAccessTest {
 

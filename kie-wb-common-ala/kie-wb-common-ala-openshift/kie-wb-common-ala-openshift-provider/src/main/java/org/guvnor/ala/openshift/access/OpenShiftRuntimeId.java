@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *       http://www.apache.org/licenses/LICENSE-2.0
+ *     http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -62,28 +62,37 @@ public final class OpenShiftRuntimeId {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj)
+        if (this == obj) {
             return true;
-        if (obj == null)
+        }
+        if (obj == null) {
             return false;
-        if (getClass() != obj.getClass())
+        }
+        if (getClass() != obj.getClass()) {
             return false;
+        }
         OpenShiftRuntimeId other = (OpenShiftRuntimeId) obj;
         if (project == null) {
-            if (other.project != null)
+            if (other.project != null) {
                 return false;
-        } else if (!project.equals(other.project))
+            }
+        } else if (!project.equals(other.project)) {
             return false;
+        }
         if (service == null) {
-            if (other.service != null)
+            if (other.service != null) {
                 return false;
-        } else if (!service.equals(other.service))
+            }
+        } else if (!service.equals(other.service)) {
             return false;
+        }
         if (application == null) {
-            if (other.application != null)
+            if (other.application != null) {
                 return false;
-        } else if (!application.equals(other.application))
+            }
+        } else if (!application.equals(other.application)) {
             return false;
+        }
         return true;
     }
 
@@ -155,5 +164,4 @@ public final class OpenShiftRuntimeId {
         }
         return s;
     }
-
 }

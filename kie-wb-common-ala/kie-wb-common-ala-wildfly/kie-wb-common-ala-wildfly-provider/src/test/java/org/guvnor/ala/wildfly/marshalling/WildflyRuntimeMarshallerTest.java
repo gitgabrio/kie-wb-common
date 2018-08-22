@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *     http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -16,8 +16,6 @@
 
 package org.guvnor.ala.wildfly.marshalling;
 
-import static org.guvnor.ala.wildfly.marshalling.WildflyProviderImplMarshallerTest.createWildflyProvider;
-
 import org.guvnor.ala.marshalling.BaseMarshallerTest;
 import org.guvnor.ala.marshalling.Marshaller;
 import org.guvnor.ala.wildfly.config.impl.ContextAwareWildflyRuntimeExecConfig;
@@ -25,6 +23,8 @@ import org.guvnor.ala.wildfly.model.WildflyRuntime;
 import org.guvnor.ala.wildfly.model.WildflyRuntimeEndpoint;
 import org.guvnor.ala.wildfly.model.WildflyRuntimeInfo;
 import org.guvnor.ala.wildfly.model.WildflyRuntimeState;
+
+import static org.guvnor.ala.wildfly.marshalling.WildflyProviderImplMarshallerTest.createWildflyProvider;
 
 public class WildflyRuntimeMarshallerTest
         extends BaseMarshallerTest<WildflyRuntime> {
